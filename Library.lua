@@ -1,26 +1,7 @@
 --[[
-SHOUT OUT TO THE TEAM : 
+NOT ORIGINAL CREATOR
 
-- nomercy.rip
-- panichook11
-- fijihook.fun
-- desktopware
-- templehook
-- brick heck ui services
-- pulse.gg
-
-- tested
-- fiji
-- desktop
-- peke
-- wish
-- brick heck
-- harvox
-
-
-HONOURABLE MENTIONS : 
-- alex gut
-
+Fixed Version
 --]]
 
 -- variables
