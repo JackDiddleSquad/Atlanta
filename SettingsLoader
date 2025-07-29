@@ -1,4 +1,4 @@
-do -- Settings
+a=function()
     getgenv().load_config = function(name)
         Library:load_config(readfile(Library.directory .. "/configs/" .. name .. ".cfg"))
     end
@@ -230,3 +230,4 @@ do -- Settings
         interval = 1,
     })
 end
+return a
