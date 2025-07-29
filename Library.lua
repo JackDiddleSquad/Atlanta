@@ -2389,6 +2389,7 @@ function library:toggle(options)
 	local cfg = {
 		enabled = options.enabled or nil,
 		name = options.name or "Toggle",
+		risky = options.risky or false,
 		flag = options.flag or tostring(random(1, 9999999)),
 		callback = options.callback or function() end,
 		default = options.default or false,
@@ -2455,7 +2456,7 @@ function library:toggle(options)
 	local text = library:create("TextLabel", {
 		Parent = left_components,
 		FontFace = library.font,
-		TextColor3 = themes.preset.text,
+		TextColor3 = cfg.risky and Color3.fromRGB(233,0,0) or themes.preset.text,
 		BorderColor3 = rgb(0, 0, 0),
 		Text = cfg.name,
 		Name = "text",
